@@ -15,6 +15,10 @@ import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 
 
+//firebase/app-types
+//react-with-direction
+//remove extract - text -plugin
+
 const store = configureStore();
 
 const jsx = (
