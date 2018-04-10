@@ -6496,6 +6496,15 @@ react-with-styles@^3.1.0:
     prop-types "^15.6.0"
     react-with-direction "^1.1.0"
 
+react-with-styles@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/react-with-styles/-/react-with-styles-3.1.1.tgz#a2a86ed04b73fcadcd20cd30bf6a5111b6d852dc"
+  dependencies:
+    deepmerge "^1.5.2"
+    hoist-non-react-statics "^2.3.1"
+    prop-types "^15.6.0"
+    react-with-direction "^1.1.0"
+
 react@^16.2.0:
   version "16.3.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.3.0.tgz#fc5a01c68f91e9b38e92cf83f7b795ebdca8ddff"
