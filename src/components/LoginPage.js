@@ -4,9 +4,13 @@ import { startLogin } from '../actions/auth';
 //No test case setup
 
 const LoginPage = ({startLogin}) => (
-  <div>
-    <h2>Log In Page</h2>
-    <button onClick={startLogin}>Log in with google</button>
+  <div className="box-layout">
+    <div className="box-layout__box">
+      <h1 className="box-layout__title">Expense Manager</h1>
+      <h3>Get your expenses under control</h3>
+      <button className="button" onClick={startLogin}>Log in with google</button>
+    </div>
+
   </div>
 );
 const mapDispatchToProps = (dispatch) => ({
